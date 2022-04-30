@@ -39,6 +39,8 @@ div {
 
 .copywrite {
     color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px #000000;
 }
 
 h1 {
@@ -53,6 +55,9 @@ h2 {
 
 .updated-time, #currentdate {
     color: yellow;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px #000000;
+
 }
 
 footer {

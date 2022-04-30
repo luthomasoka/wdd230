@@ -22,7 +22,6 @@ h3 {
 }
 
 h3:hover {
-    color: hsl(220, 98%, 61%);
     transform: translateY(-10px);
     transition: all 0.25s;
 }
@@ -34,7 +33,7 @@ h1, h2 {
 }
 
 h4 {
-  color: purple;
+  color: rgb(100, 2, 100);
   font-size: 20px;
   margin-left: 8px;
   font-family: 'Quicksand', sans-serif; 
@@ -50,6 +49,10 @@ p {
 
 a {
   margin-left: 40px;
+  color: aliceblue;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #000000;
+  font-size: larger;
 }
 
 img {
@@ -58,7 +61,7 @@ img {
 
 article {
   border-radius: 10px 10px 0 0;
-  background-color: #998FC7;
+  background-color: #7f76a5;
   box-shadow: 5px 5px 5px #999999;
   margin-bottom: 20px;
   display: flex;
