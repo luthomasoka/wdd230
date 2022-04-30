@@ -20,7 +20,7 @@ header, footer {
     justify-content: center;
     border-radius: 10px;
     border: 1px solid rgb(161, 161, 161);
-    background-color: orangered;
+    background-color: #9E2A00;
     width: 80%;
     box-shadow: 5px 5px 5px #999;
 }
