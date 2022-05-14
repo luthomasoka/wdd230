@@ -1,0 +1,24 @@
+@media (min-width: 32.5em) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 10px;
+      }
+
+      .navigation {
+        display: flex;
+        flex-direction: column;
+      }
+
+    .navigation a {
+      text-align: center;
+    }
+
+    .upper-footer {
+      display: flex;
+      flex-direction: row;
+  }
+
+    nav ul li a:first-child {border: none;}
+
+}

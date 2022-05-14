@@ -1,0 +1,36 @@
+@media (min-width: 64em) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 10px;
+      }
+
+      nav {
+        padding: .5rem 1rem;
+      }
+
+      .navigation {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .navigation li:first-child {
+        display: none;
+      }
+
+      .navigation li {
+        flex: 1 1 auto;
+        display: block;
+    }
+
+    .navigation a {
+      text-align: center;
+    }
+
+    .upper-footer {
+      display: flex;
+      flex-direction: row;
+  }
+
+    nav ul li a {border: none;}
+}
