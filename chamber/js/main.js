@@ -1,15 +1,16 @@
 const todaysDate = new Date(document.lastModified);
 const dateField = document.querySelector('#dateTime');
-const date = todaysDate.getFullYear();
+const date = new Date();
+const year = todaysDate.getFullYear();
 const hambutton = document.querySelector('.ham');
 const mainnav = document.querySelector('.navigation')
 
 const fullDate = new Intl.DateTimeFormat("en-UK", {
     dateStyle: "full"
-}).format(todaysDate);
+}).format(date);
 
 dateField.innerHTML = `<em>${fullDate}</em>`;
-document.querySelector("#year").innerHTML = date;
+document.querySelector("#year").innerHTML = year;
 document.getElementById("currentdate").innerHTML = todaysDate.toLocaleString('en-GB');
 
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
