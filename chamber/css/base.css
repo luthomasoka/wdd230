@@ -40,9 +40,10 @@ footer {
 
 .upper-footer .logo-img {width: 30%;}
 
-.lower-footer {
-    display: flex;
-    justify-self: center;
+.lower-footer {display: flex;}
+
+.lower-footer p {
+    display: inline;
     align-self: center;
 }
 
