@@ -40,8 +40,11 @@
   #hero-site-name {
     grid-row: 1 / 4;
     /* display: inline; */
-    height: 66%;
+    height: 65%;
   }
+
+  /* .banner-img {height: 105%;} */
+
 
   #news-release, #join {
     grid-row: 3 / 4;
@@ -53,6 +56,7 @@
 
   #weather {
     grid-row: 2 / 3;
+    margin: 0;
   }
 
   #event, #weather, #join {
@@ -93,6 +97,11 @@
     grid-row: 3 / 4;
     display: block;
   }
+
+  /* .truck-img {
+    align-items: center;
+    justify-items: center;
+  } */
 
   nav ul li a {border: none;}
 }

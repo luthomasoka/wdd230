@@ -14,7 +14,9 @@
     flex-direction: column;
   }
 
-  #hero-site-name {grid-row: 1 / 2;}
+  #hero-site-name, .banner-img {
+    grid-row: 1 / 2;
+  }
 
   #news-release {grid-row: 2 / 3;}
 
@@ -32,6 +34,8 @@
   }
 
   #event, #weather {grid-row: 5 / 6;}
+
+  #weather {margin: 0;}
 
   .navigation a {text-align: center;}
 
