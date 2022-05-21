@@ -48,7 +48,8 @@ h2, h3, h4 {
 }
 
 h1 {
-    color: #230C0F;
+    color: black;
+    background-color: azure;
     font-weight: 600;
     font-style: oblique;
 }
@@ -119,7 +120,6 @@ nav ul li a {
   }
 
 #hero-site-name h1 {
-    font-weight: bolder;
     position: absolute;
     z-index: 1;
   }
