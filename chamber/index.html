@@ -14,6 +14,7 @@
      <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
      <script defer src="js/main.js"></script>
+     <script defer src="js/windchill.js"></script>
     </head>
     
     <body>
@@ -49,7 +50,14 @@
         <main>
             <section id="hero-site-name">
                 <h1>Welcome to Bay Chamber of Businesses</h1>
-                <img src="images/pexels-christina-morillo-1181403.jpg" alt="banner image" />
+                <!-- <img src="images/pexels-christina-morillo-1181403.jpg" alt="banner image" /> -->
+                <picture>
+                    <img src="images/wdd230-org.jpg" alt="hero image" sizes="50vw"
+                        srcset="images/wdd230-org_small.jpg 200w,
+                                images/wdd230-org_medium.jpg 520w,
+                                images/wdd230-org_large.jpg 1024w"
+                    >
+                </picture>
                 <a href="#">Join the Chamber</a>
             </section>
             <section id="news-release">
@@ -102,20 +110,20 @@
                 <h2>Ribbon Cutting</h2>
                 <h4>The Diamond Shack</h4>
                 <p>Join us for the grand opening of 
-                    The Diamond Shack, Thursday at 1:00 p.m <span>more info</span>
+                    The Diamond Shack, Thursday at 1:00 p.m <a href="#">more info...</a>
                 </p>
             </section>
             <section id="weather">
                 <h2>Weather</h2>
                 <div>
                     <span>☁️</span>
-                    <h3>33°C</h3>
+                    <h3><span class="temp">9</span>°C</h3>
                 </div>
                 <p>Partly Cloudy</p>
                 <hr>
                 <diV>
-                    <span>Wind Speed</span>
-                    <span>Wind Chill</span>
+                    <p>Wind Speed: <span id="speed">5</span>km/h</p>
+                    <p>Wind Chill: <span id="chill"></span></p>
                 </diV>
             </section>
         </main>

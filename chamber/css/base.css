@@ -12,8 +12,9 @@ main {
 section {
     background-color: #230C0F;
     font-size: smaller;
-    height: 180px;
+    height: auto;
     margin: 0;
+    padding: 1rem;
 }
 
 header {
@@ -114,6 +115,8 @@ nav ul li a {
 
 .responsive .ham span:nth-child(2) {display: block;}
 
+picture img {width: 50%;}
+
 #hero-site-name img {
     width: 100%;
     height: 100%;
@@ -126,17 +129,20 @@ nav ul li a {
 
 #hero-site-name a {
     position: relative;
-    bottom: 15%;
-    left: 60%;
+    bottom: 21%;
+    left: 10%;
     font-size: larger;
     padding: 1rem;
     z-index: 2;
     color: whitesmoke;
     background-color: #1B5A7E;
     text-decoration: none;
-  }
+  } 
 
-#hero-site-name {grid-row: 1 / 2;}
+#hero-site-name {
+    padding: 0;
+    grid-row: 1 / 2;
+}
 
 #event {grid-row: 2 / 3;}
 
