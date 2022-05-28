@@ -52,11 +52,10 @@
                 <h1>Welcome to Bay Chamber of Businesses</h1>
                 <!-- <img src="images/pexels-christina-morillo-1181403.jpg" alt="banner image" /> -->
                 <picture>
-                    <img src="images/wdd230-org.jpg" alt="hero image" sizes="50vw"
-                        srcset="images/wdd230-org_small.jpg 200w,
-                                images/wdd230-org_medium.jpg 520w,
-                                images/wdd230-org_large.jpg 1024w"
-                    >
+                    <source media="(max-width: 32.99em)" srcset="images/wdd230-org_small.jpg">
+                    <source media="(max-width: 63.99em)" srcset="images/wdd230-org_medium.jpg">
+                    <source media="(min-width: 64em)" srcset="images/wdd230-org_large.jpg">
+                    <img src="images/wdd230-org.jpg" alt="hero-image">
                 </picture>
                 <a href="#">Join the Chamber</a>
             </section>
