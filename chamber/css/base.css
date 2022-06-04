@@ -157,7 +157,7 @@ picture img {width: 50%;}
 
 #spotlights {
     grid-row: 5 / 7;
-    height: 360px;
+    height: auto;
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
@@ -181,9 +181,16 @@ picture img {width: 50%;}
     margin: 5px;
   }
 
-  .spotlight-img img{
+  .spotlight-img {
     width: 20%;
-    margin-left: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .spotlight-img img {
+    width: 100%;
   }
 
   #spotlights p {
@@ -201,9 +208,7 @@ picture img {width: 50%;}
     align-items: center;
 }
 
-.contact-info span {
-    margin: 6px;
-}
+.contact-info span {margin: 6px;}
 
 #weather div:nth-child(2) {
     display: flex;
@@ -217,9 +222,7 @@ picture img {width: 50%;}
     flex-direction: row;
 }
 
-.banner-msg {
-    background-color: #B4869F;
-}
+.banner-msg {background-color: #B4869F;}
 
 .banner-msg p {
     color: aliceblue;
@@ -227,4 +230,26 @@ picture img {width: 50%;}
     padding: 30px 0;
     text-align: center;
     font-size: larger;
+}
+
+.figures {
+    display: block;
+}
+
+.figures figure img {
+    width: 300px;
+    height: 400px;
+}
+
+figure img[data-src] {
+    filter: blur(0.2em);
+}
+  
+figure img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+figure img:hover {
+    filter: none;
 }

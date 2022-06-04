@@ -12,7 +12,7 @@ if (celsToFahr <= 50 && kmphToMph > 3.0) {
     windChill = 35.74 + 0.6215 * celsToFahr - 35.75 * Math.pow(kmphToMph, 0.16) + 0.4275 * celsToFahr * Math.pow(kmphToMph, 0.16);
     //Conversion to Celsius
     windChill = (windChill - 32) * 5/9;
-    document.querySelector('#chill').innerHTML = `${windChill.toFixed(2)} km/h`;
+    document.querySelector('#chill').innerHTML = `${windChill.toFixed(2)} °C`;
 
 } else { 
     windChill = 'N/A';
