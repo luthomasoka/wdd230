@@ -250,6 +250,6 @@ figure img {
     transition: filter 0.5s;
 }
 
-figure img:hover {
+/* figure img:hover {
     filter: none;
-}
+} */

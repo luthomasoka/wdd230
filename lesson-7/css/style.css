@@ -16,6 +16,10 @@ body {
     background-color: #bed;
     padding: 0.5rem;
   }
+
+  picture img[data-src] {
+    filter: blur(0.2em);
+}
   
   picture img {
     filter: blur(0em);
