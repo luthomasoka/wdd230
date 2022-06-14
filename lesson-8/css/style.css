@@ -4,7 +4,7 @@
 	--col-head: rgb(98, 140, 165);
 	--border: rgb(191, 190, 195);
 	--shadow: hsl(0,0%,50%);
-	--zebra-odd: rgb(231, 240, 237);
+	--zebra-odd: #D8E5B2;
 	--zebra-even: rgb(231, 240, 237);
 }
  
@@ -34,7 +34,9 @@ th, td {
 
 td {text-align: center;}
 
-tbody tr:nth-child(even) {background-color: var(--zebra-even);}
+tbody tr {background-color: var(--zebra-even);}
+
+tbody tr:nth-child(even) {background-color: var(--zebra-odd);}
 
 #green {background-color: rgb(98, 140, 165);}
 

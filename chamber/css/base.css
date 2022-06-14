@@ -3,7 +3,7 @@ body {
     color: white;
 }
 
-main {
+.content {
     display: grid;
     grid-template-rows: repeat(8, auto);
     grid-gap: .5rem;
@@ -189,9 +189,7 @@ picture img {width: 50%;}
 
   }
 
-  .spotlight-img img {
-    width: 100%;
-  }
+  .spotlight-img img {width: 100%; }
 
   #spotlights p {
     margin: 0;
@@ -250,6 +248,78 @@ figure img {
     transition: filter 0.5s;
 }
 
-/* figure img:hover {
-    filter: none;
-} */
+form {
+    margin: 0 auto;
+    padding: 2em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: #15172b;
+    box-sizing: border-box;
+    height: 170vh;
+    width: 90vh;
+  }
+
+  form label {
+    margin-top: 2em;
+    margin-bottom: 8px;
+    color: #eeeaff;
+    display: block;
+  }
+
+  form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  input, textarea, select {
+    font: 1em sans-serif;
+    width: 32em;
+    height: 2em;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+
+  select {
+    margin-top: 2em;
+  }
+
+  input:focus, textarea:focus {
+    border-color: #000;
+  }
+
+  textarea {
+    vertical-align: top;
+    height: 9em;
+  }
+
+  #submit-form {
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 1.1rem;
+    height: 50px;
+    margin-top: 38px;
+    outline: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .benefits li {
+    margin-top: 1em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#B4869F;
+    list-style: circle;
+  }
+
+  .submission {
+    height: 80vh;
+  }
+
+  .submission h2 {
+    color: #15172b;
+    font-size: 3rem;
+  }

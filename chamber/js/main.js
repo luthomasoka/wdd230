@@ -1,9 +1,11 @@
 const displayBannerMsg = () => {
     let currentDate = new Date().getDay();
     let msg = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+    const banner = document.querySelector('.banner-msg');
 
     if (currentDate == 1 || currentDate == 2) {
         document.querySelector('.banner-msg p').innerHTML = msg;
+        banner.focus();
     } else {
         document.querySelector('.banner-msg p').style.display = "none";
     }
