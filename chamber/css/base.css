@@ -220,7 +220,7 @@ picture img {width: 50%;}
     flex-direction: row;
 }
 
-.banner-msg {background-color: #B4869F;}
+.banner-msg {background-color: #6E455B;}
 
 .banner-msg p {
     color: aliceblue;
@@ -294,7 +294,7 @@ form {
   }
 
   #submit-form {
-    background-color: #08d;
+    background-color: #004F80;
     border-radius: 12px;
     border: 0;
     box-sizing: border-box;
