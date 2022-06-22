@@ -28,6 +28,17 @@ membership.addEventListener('change', () => {
         benefits.appendChild(secondBenefit);
         benefits.appendChild(thirdBenefit);
         benefits.appendChild(fourthBenefit);
+
+    } else if (membership.value == 'silver_membership') {
+        firstBenefit.innerHTML = 'BCOB Weekly update';
+        secondBenefit.innerHTML = 'Business Elite Training';
+        thirdBenefit.innerHTML = 'BCOB Monthly City Council';
+        fourthBenefit.innerHTML = 'Express Access';
+    
+        benefits.appendChild(firstBenefit);
+        benefits.appendChild(secondBenefit);
+        benefits.appendChild(thirdBenefit);
+        benefits.appendChild(fourthBenefit);
     
     } else if (membership.value == 'np_membership') {
         firstBenefit.innerHTML = 'BCOB Quarterly update';
