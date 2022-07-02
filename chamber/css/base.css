@@ -89,6 +89,10 @@ nav ul li a:first-child {border: none;}
     padding: 1rem;
 }
 
+.icon:hover {
+  background-color: #B4869F;
+}
+
 .responsive li {display: block;}
 
 nav {

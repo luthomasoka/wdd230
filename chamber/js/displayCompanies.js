@@ -1,4 +1,4 @@
-const requestURL = '/chamber/json/data.json';
+const requestURL = 'json/data.json';
 const companiesObj = document.querySelector('.container');
 
 fetch(requestURL)
