@@ -1,13 +1,13 @@
 const visits = document.querySelector('#visits');
 
-let numVisits = Number(window.localStorage.getItem("visits-ls"));
+let dayPrior = Number(window.localStorage.getItem('prior-visit-ls'));
 
-if (numVisits !== 0) {
-    visits.textContent = `${numVisits} visits`;
+const days = Math.floor((Date.now() - dayPrior) / 86400000);
+
+if (days !== 0) {
+    visits.textContent = `${days} day(s) since visit.`;
 } else {
     visits.textContent = 'This is your first visit!';
 }
 
-numVisits++;
-
-localStorage.setItem("visits-ls", numVisits);
+localStorage.setItem("prior-visit-ls", Date.now());
