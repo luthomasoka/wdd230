@@ -67,7 +67,8 @@ h1 {
 .lower-footer {
     display: block;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
+    margin: 0;
 }
 
 .lower-footer p {
@@ -348,11 +349,12 @@ form {
     background-color: rgb(67, 83, 85);
     margin: 2rem;
     border: 2px solid #000;
+    border-radius: 2rem;
   }
 
   article {
     align-items: center;
-    background-color: rgb(85, 67, 67);
+    background-color: rgb(53, 40, 40);
     margin: 2rem;
   }
 
