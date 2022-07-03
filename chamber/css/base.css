@@ -1,6 +1,7 @@
 body {
     font-family: Montserrat, sans-serif;
     color: white;
+    font-size: 16px;
 }
 
 .content {
@@ -86,11 +87,13 @@ nav ul li a:first-child {border: none;}
 .navigation a:hover, #hero-site-name a:hover {
 	color: #B4869F;
 	background-color: #230C0F;
-    padding: 1rem;
+  padding: .9rem;
+  transform: translateY(-8px);
+  transition: all 0.25s;
 }
 
 .icon:hover {
-  background-color: #B4869F;
+  background-color: white;
 }
 
 .responsive li {display: block;}
@@ -194,9 +197,7 @@ picture img {width: 50%;}
 
   .spotlight-img {
     width: 20%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: auto;
   }
 
   .spotlight-img img {width: 100%; }
@@ -344,7 +345,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(85, 67, 67);
+    background-color: rgb(67, 83, 85);
     margin: 2rem;
     border: 2px solid #000;
   }
@@ -366,6 +367,7 @@ form {
     text-align: center;
     height: 3rem;
     margin-top: -1.5rem;
+    margin-bottom: 2rem;
   }
 
   #grid, #list {
@@ -374,7 +376,7 @@ form {
     padding: .5rem;
     background-color: #6E455B;
     color: #eee;
-    width: 6rem;
+    width: 30%;
   }
 
   #grid:hover, #list:hover {
@@ -384,7 +386,7 @@ form {
 
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
   }
 
@@ -403,7 +405,7 @@ form {
     margin: 0 auto;
     border: 1px solid #bbb;
     padding: 0.5rem;
-    max-width: 700px;
+    max-width: 960px;
     background-color: #eee;
     font-family: "Caveat", sans-serif;
   }
