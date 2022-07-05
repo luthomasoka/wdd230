@@ -14,8 +14,8 @@
          <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
          <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
          <script defer src="js/main.js"></script>
-         <script defer src="js/displayCompanies.js"></script>
-
+         <script defer src="js/membership.js"></script>
+         <script defer src="js/displayDateTime.js"></script>
         </head>
     
     <body>
@@ -45,16 +45,56 @@
                 </ul>
             </nav>
             <p>
-                <span id="dateTime"></span>
-            </p>
+              <span id="dateTime"></span>
+          </p>
         </header>
         <main>
-            <div class="menu">
-                <button id="grid">Grid</button>
-                <button id="list">List</button>
+            <div class="banner-box">
+                <div class="banner-msg">
+                    <h1>
+                      Feel Free to Contact Us
+                    </h1>
+                </div>
+                <div class="banner-img">
+                    <img src="images/pexels-christina-morillo-1181403-min.jpg"
+                    alt="Banner-image" />
+                </div>
             </div>
-            <div class="container grid">
-            </div>
+            <article id="contact-block">
+                <h2>Contact Us</h2>
+                <h3>address</h3>
+                <p class="address">20 King Edward Drive <span>PE, South Africa 888</span></p>
+                <hr/>
+                <h3>Phone</h3>
+                <p>(027) 555-888</p>
+                <hr/>
+                <h3>Email</h3>
+                <p>info@bcob.com</p>
+            </article>
+            <form id="feedback" action="/" method="get">
+                <ul>
+                    <li>
+                        <label for="business">Business Name / Title:</label>
+                        <input type="text" id="business" name="business name" required>
+                    </li>
+                  <li>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="user email" placeholder="johndoe@gmail.com" required>
+                  </li>
+                  <li>
+                    <label for="feedback">Feedback:</label>
+                    <textarea id="feedback" name="user feedback"></textarea>
+                  </li>
+                  <li>
+                      <input type="hidden" id="time" name="time" >
+                  </li>
+                  <li>
+                    <button type="submit" id="submit-form">
+                      Submit
+                    </button>
+                  </li>
+                </ul>
+                </form>
         </main>
         <footer>
             <div class="upper-footer">

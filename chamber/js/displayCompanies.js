@@ -18,7 +18,7 @@ fetch(requestURL)
     let img = document.createElement('img');
     let contact = document.createElement('p');
     let website = document.createElement('a');
-    let membership = document.createElement('p');
+    let membership = document.createElement('h3');
 
 
     img.setAttribute('src', company.imageurl);

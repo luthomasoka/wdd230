@@ -5,7 +5,7 @@
       "address": "1 Smith Drive",
       "contact": "222-777-999",
       "website": "https://anime.org/",
-      "membership": "Gold",
+      "membership": "gold",
       "imageurl": "//unsplash.it/412"
     },
     {
@@ -21,7 +21,7 @@
       "address": "17 Locking str",
       "contact": "222-777-777",
       "website": "https://media.org/",
-      "membership": "Gold",
+      "membership": "gold",
       "imageurl": "//unsplash.it/410"
     },
     {
@@ -29,7 +29,7 @@
       "address": "99 Orange Drive",
       "contact": "222-333-999",
       "website": "https://kc.co.za/",
-      "membership": "Gold",
+      "membership": "gold",
       "imageurl": "//unsplash.it/413"
     },
     {
@@ -37,7 +37,7 @@
       "address": "196 Mamelodi cres",
       "contact": "222-999-999",
       "website": "https://kabunda.co.za/",
-      "membership": "Gold",
+      "membership": "gold",
       "imageurl": "//unsplash.it/414"
     },
     {
@@ -61,7 +61,7 @@
       "address": "10 Smith Drive",
       "contact": "222-777-999",
       "website": "https://tomora.co.za/",
-      "membership": "Gold",
+      "membership": "gold",
       "imageurl": "//unsplash.it/417"
     },
     {
