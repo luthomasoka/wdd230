@@ -495,3 +495,9 @@ form {
     padding-bottom: .5rem;
     text-align: center;
   }
+
+  #join-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
