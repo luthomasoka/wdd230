@@ -18,7 +18,9 @@ fetch(requestURL)
     let img = document.createElement('img');
     let contact = document.createElement('p');
     let website = document.createElement('a');
-    let membership = document.createElement('h3');
+    let membership = document.createElement('h2');
+    let address = document.createElement('p');
+
 
 
     img.setAttribute('src', company.imageurl);
@@ -28,12 +30,15 @@ fetch(requestURL)
     name.textContent = company.name;
     contact.innerHTML = company.contact;
     membership.innerHTML = company.membership;
+    address.innerHTML = company.address;
+
 
     website.setAttribute('href', '#');
     website.textContent = company.website;
     
     section.appendChild(img);
     section.appendChild(name);
+    section.appendChild(address);
     section.appendChild(contact);
     section.appendChild(website);
     section.appendChild(membership);

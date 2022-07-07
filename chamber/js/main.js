@@ -17,7 +17,8 @@ const dateField = document.querySelector('#dateTime');
 const date = new Date();
 const year = todaysDate.getFullYear();
 const hambutton = document.querySelector('.ham');
-const mainnav = document.querySelector('.navigation')
+const mainnav = document.querySelector('.navigation');
+const joinBtn = document.querySelector('#join-nav-btn');
 
 const fullDate = new Intl.DateTimeFormat("en-UK", {
     dateStyle: "full"
@@ -28,6 +29,16 @@ document.querySelector("#year").innerHTML = year;
 document.getElementById("currentdate").innerHTML = todaysDate.toLocaleString('en-GB');
 
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+
+if(joinBtn){
+    joinBtn.addEventListener('click', () => {window.location.href = "join.html"}, false);
+  }
+
+// document.getElementById("join-nav-btn").addEventListener('click', () => {window.location.href = "join.html"}, false);
+
+// document.getElementById("join-nav-btn").onclick = () => {
+//     window.location.href = "join.html";
+// };
 
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
 

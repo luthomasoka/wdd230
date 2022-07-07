@@ -22,6 +22,7 @@ fetch(requestURL)
     let spotlightImg = document.createElement('div')
     let spotlightWeb = document.createElement('div')
     let img = document.createElement('img');
+    let address = document.createElement('p');
     let hr = document.createElement('hr');
     let website = document.createElement('a');
     let contact = document.createElement('p');
@@ -32,6 +33,7 @@ fetch(requestURL)
 
     name.textContent = company.name;
     contact.innerHTML = company.contact;
+    address.innerHTML = company.address;
     spotlightImg.classList.add('spotlight-img');
     spotlightWeb.classList.add('spotlight-web')
 
@@ -42,6 +44,7 @@ fetch(requestURL)
     spotlightWeb.appendChild(website);
     
     article.appendChild(name);
+    article.appendChild(address);
     article.appendChild(spotlightImg);
     article.appendChild(hr);
     article.appendChild(spotlightWeb);

@@ -2,7 +2,7 @@
   "companies": [
     {
       "name": "Anime",
-      "address": "1 Smith Drive",
+      "address": "1 Smith Drive, Newton Park",
       "contact": "222-777-999",
       "website": "https://anime.org/",
       "membership": "gold",
@@ -10,7 +10,7 @@
     },
     {
       "name": "Nebular",
-      "address": "14 Kong Drive",
+      "address": "14 Kong Drive. Coega",
       "contact": "999-444-999",
       "website": "https://nebular.org/",
       "membership": "silver",
@@ -18,7 +18,7 @@
     },
     {
       "name": "Media SA",
-      "address": "17 Locking str",
+      "address": "17 Locking str, Markman",
       "contact": "222-777-777",
       "website": "https://media.org/",
       "membership": "gold",
@@ -26,7 +26,7 @@
     },
     {
       "name": "kadet connections",
-      "address": "99 Orange Drive",
+      "address": "99 Orange Drive, New Brighton",
       "contact": "222-333-999",
       "website": "https://kc.co.za/",
       "membership": "gold",
@@ -34,7 +34,7 @@
     },
     {
       "name": "Kabunda",
-      "address": "196 Mamelodi cres",
+      "address": "196 Mamelodi cres, Uitenhage",
       "contact": "222-999-999",
       "website": "https://kabunda.co.za/",
       "membership": "gold",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Marrz",
-      "address": "1 Victoria Drive",
+      "address": "1 Victoria Drive, Algoa",
       "contact": "666-777-999",
       "website": "https://Marrz.net/",
       "membership": "bronze",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Bingo Electric",
-      "address": "105 golden str",
+      "address": "105 golden str, Walmer",
       "contact": "222-111-111",
       "website": "https://bingo.org/",
       "membership": "silver",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Thomas Oracles",
-      "address": "10 Smith Drive",
+      "address": "10 Smith Drive. Sydnham",
       "contact": "222-777-999",
       "website": "https://tomora.co.za/",
       "membership": "gold",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Pretty Design",
-      "address": "70 Adam Drive",
+      "address": "70 Adam Drive. Dwesi",
       "contact": "888-777-999",
       "website": "https://prettydesign.co.za/",
       "membership": "bronze",
