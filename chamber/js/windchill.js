@@ -6,9 +6,6 @@ const description = document.querySelector("#description");
 
 let windChill = 0;
 
-// console.log(speed);
-// console.log(temp);
-
 const celsToFahr = temp * 9/5 + 32;
 const kmphToMph = speed * 0.6214;
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=Port+Elizabeth&units=metric&appid=43219341657d7557244efb66c3f4d2b9';
@@ -18,7 +15,6 @@ async function apiFetch() {
       const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // this is for testing the call
         displayResults(data);
       } else {
           throw Error(await response.text());
